@@ -13,6 +13,8 @@ h1 {
   color:#fff;
   text-align: center;
   margin: 0;
+  font-size: 2rem;
+  padding: .5em;
 }
 
 ul {
@@ -24,14 +26,15 @@ a {
   text-decoration: none;
   font-family: sans-serif;
   color: #fff;
-  font-size: 0.8rem;
-  hover: #
+  font-size: 0.9rem;
+  padding: 0.75em;
+  background-color: #713837;
+  border-radius: 4px;
+
 }
 
 .buttons li {
   margin: 0.3em;
-  padding: 0.6em, 0.5em, 0.75em;
-  background-color: #713837;
   display: inline-block;
 }
 
@@ -41,4 +44,8 @@ body {
 
 header {
   background-color: #79766f;
+}
+
+a:hover {
+  background-color: #f33;
 }

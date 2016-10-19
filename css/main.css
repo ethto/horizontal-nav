@@ -9,7 +9,7 @@ html {
 }
 
 h1 {
-  font-family: 'Bevan', cursive;
+  font-family: "Bevan", serif;
   color:#fff;
   text-align: center;
   margin: 0;
@@ -18,15 +18,16 @@ h1 {
 }
 
 ul {
-  list-style: none;
+  list-style-type: none;
   margin: 0;
+  text-align: center;
+  padding-left: 0;
 }
 
 a {
   text-decoration: none;
   font-family: sans-serif;
   color: #fff;
-  font-size: 0.9rem;
   padding: 0.75em;
   background-color: #713837;
   border-radius: 4px;
@@ -34,7 +35,6 @@ a {
 }
 
 .buttons li {
-  margin: 0.3em;
   display: inline-block;
 }
 
@@ -43,7 +43,8 @@ body {
 }
 
 header {
-  background-color: #79766f;
+  background-color: #79756f;
+  border: 3px solid #595652;
 }
 
 a:hover {

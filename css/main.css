@@ -36,6 +36,8 @@ a {
 
 .buttons li {
   display: inline-block;
+  padding-top: 0.5em;
+  padding-bottom: 0.75em;
 }
 
 body {
